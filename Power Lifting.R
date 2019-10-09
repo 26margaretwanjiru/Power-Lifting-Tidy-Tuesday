@@ -43,7 +43,6 @@ lift_gif <- count_lift%>%
   scale_fill_manual(values = mycols) +
   theme_void()+
   transition_states(Year, transition_length = 3, state_length = 1)+
-  theme(plot.background = element_rect(fill = "blue"))+
   labs(title = "International Powerlifting \n Year : {closest_state}", 
        subtitle = "The increase/ decrease of men and women\n for the last 9 years")+
   theme(
